@@ -1,0 +1,15 @@
+<!-- res/menu/menu_user_options.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+    <item
+        android:id="@+id/action_delete_user"
+        android:title="Delete User"
+        android:icon="@android:drawable/ic_menu_delete" />
+    <item
+        android:id="@+id/action_reset_password"
+        android:title="Reset Password"
+        android:icon="@android:drawable/ic_menu_manage" />
+</menu>

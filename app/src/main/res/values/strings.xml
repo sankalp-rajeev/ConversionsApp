@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Unit Genie</string>
+
+    <!-- Security questions array -->
+    <string-array name="security_questions">
+        <item>What is your mother\'s maiden name?</item>
+        <item>What was the name of your first pet?</item>
+        <item>What is your favorite book?</item>
+        <item>What was the name of your first school?</item>
+    </string-array>
+
+    <string-array name="conversion_types_array">
+        <item>Length</item>
+        <item>Weight</item>
+        <item>Temperature</item>
+        <item>Volume</item>
+        <!-- Add more categories as needed -->
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <array name="units_array">
+        <item>Meters</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Pounds</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Liters</item>
+        <item>Milliliters</item>
+        <item>Gallons</item>
+    </array>
+
+
+    <!-- Define the units for Length -->
+    <array name="length_units_array">
+        <item>Meters</item>
+        <item>Kilometers</item>
+        <item>Centimeters</item>
+        <item>Millimeters</item>
+        <item>Inches</item>
+        <item>Feet</item>
+    </array>
+
+    <!-- Define the units for Weight -->
+    <array name="weight_units_array">
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Pounds</item>
+        <item>Ounces</item>
+    </array>
+
+    <!-- Define the units for Temperature -->
+    <array name="temperature_units_array">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </array>
+
+    <!-- Define the units for Volume -->
+    <array name="volume_units_array">
+        <item>Liters</item>
+        <item>Milliliters</item>
+        <item>Gallons</item>
+    </array>
+</resources>

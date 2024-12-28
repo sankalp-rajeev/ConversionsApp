@@ -1,0 +1,33 @@
+<resources>
+    <!-- Define the units for Length -->
+    <!--    <array name="length_units_array">-->
+    <!--        <item>Meters</item>-->
+    <!--        <item>Kilometers</item>-->
+    <!--        <item>Centimeters</item>-->
+    <!--        <item>Millimeters</item>-->
+    <!--        <item>Inches</item>-->
+    <!--        <item>Feet</item>-->
+    <!--    </array>-->
+
+    <!--    &lt;!&ndash; Define the units for Weight &ndash;&gt;-->
+    <!--    <array name="weight_units_array">-->
+    <!--        <item>Grams</item>-->
+    <!--        <item>Kilograms</item>-->
+    <!--        <item>Pounds</item>-->
+    <!--        <item>Ounces</item>-->
+    <!--    </array>-->
+
+    <!--    &lt;!&ndash; Define the units for Temperature &ndash;&gt;-->
+    <!--    <array name="temperature_units_array">-->
+    <!--        <item>Celsius</item>-->
+    <!--        <item>Fahrenheit</item>-->
+    <!--        <item>Kelvin</item>-->
+    <!--    </array>-->
+
+    <!--    &lt;!&ndash; Define the units for Volume &ndash;&gt;-->
+    <!--    <array name="volume_units_array">-->
+    <!--        <item>Liters</item>-->
+    <!--        <item>Milliliters</item>-->
+    <!--        <item>Gallons</item>-->
+    <!--    </array>-->
+</resources>

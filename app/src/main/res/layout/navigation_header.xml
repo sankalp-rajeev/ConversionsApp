@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/conversion_history_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Conversion History"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryText"
+        android:paddingBottom="8dp"
+        android:gravity="center_horizontal"/>
+
+
+    <!-- Search View -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/drawer_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search..."
+        android:background="@drawable/rounded_edittext" />
+</LinearLayout>

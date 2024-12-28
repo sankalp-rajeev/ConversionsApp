@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:textColor="#000000"/>
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/textAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT GENIE"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="#000000"/>
+
+    <!-- Username Field -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="10dp"
+        android:backgroundTint="#D3D3D3"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:backgroundTint="#D3D3D3"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Confirm Password Field -->
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:backgroundTint="#D3D3D3"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/securityQuestionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:text="Security Question"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerSecurityQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_border"
+        android:padding="10dp"
+        android:entries="@array/security_questions"
+        android:dropDownWidth="match_parent"/>
+
+
+    <EditText
+        android:id="@+id/editTextSecurityAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Answer" />
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:backgroundTint="#ADD8E6"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:textStyle="bold"/>
+
+
+
+    <!-- Back to Login Link -->
+    <TextView
+        android:id="@+id/textViewBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Login?"
+        android:textColor="#6200EE"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"/>
+
+    <!-- Footer Text -->
+    <TextView
+        android:id="@+id/footerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Mobile Unit Conversion Tool"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#A9A9A9"/>
+</LinearLayout>
